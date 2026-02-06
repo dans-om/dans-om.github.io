@@ -30,7 +30,7 @@ title: Home
             <!-- Right column: Neuroplasticity image -->
             <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #18453B;">
                 <h4 style="color: #18453B; margin-bottom: 15px; font-size: 1.1em;">Featured Finding</h4>
-                <img src="{{ '/images/neuroplasticity.jpeg' | relative_url }}" alt="Long-term Neuroplasticity" style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 15px;">
+                <img src="{{ '/images/neuroplasticity.jpg' | relative_url }}" alt="Long-term Neuroplasticity" style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 15px;">
                 <p style="font-size: 0.9em; line-height: 1.5; color: #333;">
                     <strong>Long-term Neuroplasticity:</strong> Six weeks of Hare Krishna mantra meditation showed enhanced alpha power reduction during practice compared to rest, suggesting improved attentional control with consistent practice.
                 </p>

@@ -14,15 +14,30 @@ title: Home
 <div class="container">
     <section id="about">
         <h2>About the Lab</h2>
-        <p>The <strong>DANS-OM Lab (Data-driven NeuroScience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
         
-        <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics during meditation using high-density EEG (64-channel wireless systems), spectral analysis (FOOOF decomposition, time-frequency representations), and multivariate classification methods. We investigate mantra-based meditation techniques through longitudinal studies, examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice optimization through rigorous neuroscientific inquiry.</p>
-        
-        <p style="margin-top: 20px;"><strong>Leadership:</strong> The DANS-OM Lab is directed by <strong>Dr. Saiprasad Ravishankar</strong> and has evolved from the <a href="https://slim-msu.github.io/" target="_blank">SLIM (Sensing, Learning, Imaging & Modeling) Lab</a>, expanding to focus specifically on contemplative neuroscience and meditation research.</p>
-        
-        <p style="margin-top: 20px;">We maintain an in-house EEGlab facility equipped with state-of-the-art 64-channel wireless EEG systems, enabling longitudinal studies that track neural changes over weeks and months of meditation practice.</p>
+        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; align-items: start;">
+            <!-- Left column: About text -->
+            <div>
+                <p>The <strong>DANS-OM Lab (Data-driven NeuroScience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
+                
+                <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics during meditation using high-density EEG (64-channel wireless systems), spectral analysis (FOOOF decomposition, time-frequency representations), and multivariate classification methods. We investigate mantra-based meditation techniques through longitudinal studies, examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice optimization through rigorous neuroscientific inquiry.</p>
+                
+                <p style="margin-top: 20px;"><strong>Leadership:</strong> The DANS-OM Lab is directed by <strong>Dr. Saiprasad Ravishankar</strong> and has evolved from the <a href="https://slim-msu.github.io/" target="_blank">SLIM (Sensing, Learning, Imaging & Modeling) Lab</a>, expanding to focus specifically on contemplative neuroscience and meditation research.</p>
+                
+                <p style="margin-top: 20px;">We maintain an in-house EEGlab facility equipped with state-of-the-art 64-channel wireless EEG systems, enabling longitudinal studies that track neural changes over weeks and months of meditation practice.</p>
+            </div>
+            
+            <!-- Right column: Neuroplasticity image -->
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #18453B;">
+                <h4 style="color: #18453B; margin-bottom: 15px; font-size: 1.1em;">Featured Finding</h4>
+                <img src="{{ '/images/neuroplasticity.jpeg' | relative_url }}" alt="Long-term Neuroplasticity" style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 15px;">
+                <p style="font-size: 0.9em; line-height: 1.5; color: #333;">
+                    <strong>Long-term Neuroplasticity:</strong> Six weeks of Hare Krishna mantra meditation showed enhanced alpha power reduction during practice compared to rest, suggesting improved attentional control with consistent practice.
+                </p>
+                <a href="{{ '/pdfs/Poster_sfn_2025___64_Channels.pdf' | relative_url }}" target="_blank" style="display: inline-block; margin-top: 10px; color: #18453B; text-decoration: none; font-weight: 500;">📄 View Full Poster →</a>
+            </div>
+        </div>
     </section>
-
     <section id="research">
         <h2>Research Areas</h2>
         <div class="research-areas">

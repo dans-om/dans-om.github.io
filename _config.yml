@@ -1,0 +1,55 @@
+# Site settings
+title: DANS-OM Lab
+email: ravisha3@msu.edu
+description: Data-driven NeuroScience Of Meditation Lab at Michigan State University
+baseurl: ""
+url: "https://dans-om.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections for CMS content
+collections:
+  team:
+    output: true
+    permalink: /:collection/:name/
+  publications:
+    output: true
+    permalink: /:collection/:name/
+  gallery:
+    output: false
+  videos:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: default
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Exclude from build
+exclude:
+  - README.md
+  - "*.ps1"
+  - "*.old"
+  - "*.backup"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

@@ -1,0 +1,66 @@
+backend:
+  name: github
+  repo: sidc/mantralab
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "team"
+    label: "Team Members"
+    folder: "_team"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Department", name: "department", widget: "text"}
+      - {label: "Category", name: "category", widget: "select", options: ["Lead Researcher", "Advisory Faculty", "Research Support"]}
+      
+  - name: "publications"
+    label: "Publications"
+    folder: "_publications"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - {label: "Authors", name: "authors", widget: "string"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Venue", name: "venue", widget: "string"}
+      - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "PDF Poster", name: "pdf", widget: "file", required: false}
+      
+  - name: "gallery"
+    label: "Gallery Photos"
+    folder: "_gallery"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      
+  - name: "videos"
+    label: "Videos & Podcasts"
+    folder: "_videos"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "YouTube Video ID", name: "youtube_id", widget: "string"}
+      - {label: "Episode Number", name: "episode", widget: "string"}
+      - {label: "Duration", name: "duration", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}

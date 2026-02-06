@@ -1,27 +1,34 @@
-﻿- authors: Li, A., Pradhan, P., Wozniak, A., Nguyen, V.S.T., Ika, K., Zhang, M., Cohen, B.H., & Ravishankar, S.
-  year: "2024"
-  title: "Understanding Longitudinal Effects of Mantra Meditation and Breath-focused Meditation using EEG"
-  venue: Society for Neuroscience (SfN) Conference 2024
-  link: ""
-  pdf: "/pdfs/EEG_Poster_sfn_2024.pdf"
-
-- authors: Li, A., Zhang, M., Liu, T., Cohen, B.H., Rodriguez-Larios, J., & Ravishankar, S.
+﻿- authors: A. Li, M. Zhang, T. Liu, B. H. Cohen, J. Rodriguez-Larios, and S. Ravishankar
   year: "2025"
   title: "Analysis of Longitudinal Variations in Brain Oscillations for Breath-Focus and Mantra-Based Meditation"
-  venue: Society for Neuroscience (SfN) Conference 2025
+  venue: "Program No. PSTR282.13. 2025 Neuroscience Meeting Planner. Chicago, IL: Society for Neuroscience, 2025."
   link: ""
   pdf: "/pdfs/Poster_sfn_2025___64_Channels.pdf"
 
-- authors: Li, A., Syed, A.B.R., Nguyen, V.S.T., Zhang, M., Cohen, B.H., & Ravishankar, S.
+- authors: A. Li, A. B. R. Syed, V. S. T. Nguyen, M. Zhang, B. H. Cohen, and S. Ravishankar
   year: "2025"
   title: "Meditation-journey: Dataset and Benchmarks for Longitudinal Study of Different Meditation Techniques"
-  venue: Society for Neuroscience (SfN) Conference 2025
+  venue: "Program No. PSTR282.15. 2025 Neuroscience Meeting Planner. Chicago, IL: Society for Neuroscience, 2025."
   link: ""
   pdf: "/pdfs/Poster_sfn_2025___classification.pdf"
 
-- authors: Li, A., Syed, A.B., Ika, K., Liu, T., Zhang, M., Cohen, B.H., & Ravishankar, S.
+- authors: A. Li, A. B. Syed, K. Ika, T. Liu, M. Zhang, B. H. Cohen, and S. Ravishankar
   year: "2025"
   title: "Quantifying Improvements in Cognitive Skills, Stress, and Mindfulness from Mantra-based and Breath-focus Meditation Techniques"
-  venue: Society for Neuroscience (SfN) Conference 2025
+  venue: "Program No. PSTR282.14. 2025 Neuroscience Meeting Planner. Chicago, IL: Society for Neuroscience, 2025."
   link: ""
   pdf: "/pdfs/Poster_sfn_2025___ERP.pdf"
+
+- authors: A. Li, P. Pradhan, K. Ika, M. Zhang, B. H. Cohen, and S. Ravishankar
+  year: "2024"
+  title: "Understanding Longitudinal Effects of Mantra Meditation and Breath-focused Meditation using EEG"
+  venue: "Program No. PSTR421.18. 2024 Neuroscience Meeting Planner. Chicago, IL: Society for Neuroscience, 2024."
+  link: ""
+  pdf: "/pdfs/EEG_Poster_sfn_2024.pdf"
+
+- authors: A. Li, P. Pradhan, A. Wozniak, B. H. Cohen, and S. Ravishankar
+  year: "2023"
+  title: "Measuring the effectiveness of mantra-based meditation using EEG data analysis"
+  venue: "Program No. PSTR564.01. 2023 Neuroscience Meeting Planner. Washington, D.C.: Society for Neuroscience, 2023."
+  link: ""
+  pdf: "/pdfs/EEG_Poster_sfn_2023.pdf"

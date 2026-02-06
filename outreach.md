@@ -15,12 +15,52 @@ title: Outreach & Community Engagement
         <h2>Community Engagement</h2>
         <p>The DANS-OM Lab is committed to sharing our research findings with the broader community and supporting meditation practice through evidence-based guidance.</p>
         
-        <div class="research-areas" style="margin-top: 40px;">
+        <div style="text-align: center; margin: 40px 0;">
+            <img src="{{ '/images/wellness-inner-architecture.png' | relative_url }}" alt="Inner Architecture - Structuring your psyche for success and satisfaction" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        </div>
+
+        <h3 style="margin-top: 40px;">Wellness Sessions & Workshops</h3>
+        <p>We regularly organize and participate in wellness sessions, meditation workshops, and community events to promote mindfulness and contemplative practices.</p>
+
+        <div class="research-areas" style="margin-top: 30px;">
             <div class="research-card">
-                <h4>🧘 Meditation Sessions</h4>
-                <p>We regularly host guided meditation sessions on campus, providing opportunities for students, faculty, and community members to experience different meditation techniques informed by our research.</p>
+                <h4>🧘 DISC 2025 - Yoga & Wellness Session</h4>
+                <p>Wellness session led by Everybody Wellness, Lansing at the 10th Anniversary DISC Conference.</p>
+                <a href="https://sites.google.com/msu.edu/cmse10thanniversary5thdisc2025/home" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">View Event</a>
             </div>
             
+            <div class="research-card">
+                <h4>🧘 CPAL 2025 - Wellness Session</h4>
+                <p>Wellness session led by Devin O'Rourke at the Conference on Parsimony and Learning (CPAL) 2025.</p>
+                <a href="https://2025.cpal.cc/wellness/" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">Learn More</a>
+            </div>
+            
+            <div class="research-card">
+                <h4>🧘 CPAL 2024 - Wellness Session</h4>
+                <p>Wellness session led by Devin O'Rourke at the Conference on Parsimony and Learning (CPAL) 2024.</p>
+                <a href="https://2024.cpal.cc/wellness/" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">Learn More</a>
+            </div>
+            
+            <div class="research-card">
+                <h4>🧘 DISC 2023 - Wellness Session</h4>
+                <p>Wellness and meditation session led by Devin O'Rourke at DISC 2023.</p>
+                <a href="https://cmse.msu.edu/NewsEvents/news/disc_20231.aspx" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">View Event</a>
+            </div>
+            
+            <div class="research-card">
+                <h4>🧘 DISC 2022 - Wellness & MAPS Session</h4>
+                <p>Wellness session and MAPS (Meditation and Practice Science) workshop led by Devin O'Rourke at DISC 2022.</p>
+                <a href="https://sites.google.com/msu.edu/2nd-disc-2022/conference-pictures" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">View Photos</a>
+            </div>
+            
+            <div class="research-card">
+                <h4>🧘 CMSE & SLIM Group Sessions</h4>
+                <p>Regular wellness and meditation sessions for the Department of Computational Mathematics, Science and Engineering (CMSE) and the SLIM research group.</p>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 50px;">Other Outreach Activities</h3>
+        <div class="research-areas">
             <div class="research-card">
                 <h4>📚 Educational Workshops</h4>
                 <p>Interactive workshops where we share our latest findings and discuss the science behind effective meditation practice. Topics include EEG neurofeedback, meditation state detection, and optimal practice strategies.</p>

@@ -3,39 +3,59 @@
   role: Principal Investigator & Lab Director
   department: Computational Mathematics, Science & Engineering and Biomedical Engineering, Michigan State University
   category: Lab Member
+  image: /images/team/saiprasad.jfif
 
 - name: Angqi Li
   role: PhD Candidate
   department: Computational Mathematics, Science & Engineering, Michigan State University
   category: Lab Member
+  image: /images/team/angqi.png
 
 - name: Syed Ab Basit Rafi
   role: Graduate Student
   department: Computational Mathematics, Science & Engineering, Michigan State University
   category: Lab Member
+  image: /images/team/basit.PNG
 
 - name: Sidharth Chhabra
   role: Research Support & Expert Meditator
   department: Harmony Collective, Ypsilanti
   category: Lab Member
+  image: /images/team/sidharth.webp
+
+- name: Devin O'Rourke
+  role: Wellness and Outreach Coordinator
+  department: Harmony Collective, Ypsilanti
+  category: Lab Member
+  image: /images/team/devin.jpg
 
 # Advisors
 - name: Dr. Barry H. Cohen
   role: Advisor
   department: Applied Psychology, New York University
   category: Advisor
+  image: /images/team/barry.jfif
 
 - name: Dr. Mengsen Zhang
   role: Advisor
   department: Computational Mathematics, Science & Engineering, Michigan State University
   category: Advisor
+  image: /images/team/mengsen.jfif
 
 - name: Dr. Taosheng Liu
   role: Advisor
   department: Psychology, Michigan State University
   category: Advisor
+  image: /images/team/taosheng.jfif
+
+- name: Dr. Julio Rodriguez-Larios
+  role: Collaborator
+  department: Department of Life Sciences, Brunel University London
+  category: Advisor
+  image: /images/team/julio.jfif
 
 - name: Dr. Matthew Sacchet
   role: Collaborator
   department: Meditation Research Program, Harvard Medical School
   category: Advisor
+  image: /images/team/matthew.jfif

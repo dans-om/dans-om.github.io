@@ -80,6 +80,11 @@ title: Home
         {% assign lab_members = site.data.team | where: "category", "Lab Member" %}
         {% for member in lab_members %}
         <div class="team-member">
+            {% if member.image %}
+            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+            {% else %}
+            <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
+            {% endif %}
             <h4>{{ member.name }}</h4>
             <div class="role">{{ member.role }}</div>
             <p>{{ member.department }}</p>
@@ -92,6 +97,11 @@ title: Home
         {% assign advisors = site.data.team | where: "category", "Advisor" %}
         {% for member in advisors %}
         <div class="team-member">
+            {% if member.image %}
+            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+            {% else %}
+            <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
+            {% endif %}
             <h4>{{ member.name }}</h4>
             <div class="role">{{ member.role }}</div>
             <p>{{ member.department }}</p>
@@ -99,16 +109,16 @@ title: Home
         {% endfor %}
     </div>
 
-    <p style="margin-top: 30px;"><em>We also gratefully acknowledge our expert meditation instructors Devin O'Rourke (Harmony Collective, Ypsilanti), and our dedicated data collectors including Pratham Pradhan, Annie Wozniak, Vu Song Thuy Nguyen, Wei-ting Tan, Alisia Coipel, and Genevieve Orlewicz.</em></p>
+    <p style="margin-top: 30px;"><em>We also gratefully acknowledge our expert meditation instructors and our dedicated data collectors including Pratham Pradhan, Annie Wozniak, Vu Song Thuy Nguyen, Wei-ting Tan, Alisia Coipel, and Genevieve Orlewicz.</em></p>
 </section>
 
-    <section id="publications">
+<section id="publications">
         <h2>Selected Publications</h2>
         <ul class="publications">
             {% assign sorted_pubs = site.data.publications | sort: 'year' | reverse %}
             {% for pub in sorted_pubs %}
             <li>
-                <strong>{{ pub.authors }}</strong> ({{ pub.year }}). "{{ pub.title }}" <em>{{ pub.venue }}.</em>
+                <strong>{{ pub.authors }}.</strong> "{{ pub.title }}," <em>{{ pub.venue }}</em>
                 {% if pub.pdf %}
                 <br><a href="{{ pub.pdf | relative_url }}" target="_blank">📄 View Poster (PDF)</a>
                 {% endif %}

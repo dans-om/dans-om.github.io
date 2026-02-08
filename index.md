@@ -33,7 +33,7 @@ title: Home
                 <h4 style="color: #18453B; margin-bottom: 15px; font-size: 1.1em;">Featured Finding</h4>
                 <img src="{{ '/images/neuroplasticity.jpg' | relative_url }}" alt="Long-term Neuroplasticity" style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 15px;">
                 <p style="font-size: 0.9em; line-height: 1.5; color: #333;">
-                    <strong>Long-term Neuroplasticity:</strong> Six weeks of Hare Krishna mantra meditation showed enhanced alpha power reduction during practice compared to rest, suggesting improved attentional control with consistent practice.
+                    <strong>Long-term Neuroplasticity:</strong> Six weeks of Hare Krishna mantra meditation showed enhanced alpha power during practice compared to rest, suggesting improved attentional control with consistent practice.
                 </p>
                 <a href="{{ '/pdfs/Poster_sfn_2025___64_Channels.pdf' | relative_url }}" target="_blank" style="display: inline-block; margin-top: 10px; color: #18453B; text-decoration: none; font-weight: 500;">📄 View Full Poster →</a>
             </div>
@@ -100,7 +100,11 @@ title: Home
             {% else %}
             <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
             {% endif %}
+            {% if member.url %}
+            <h4><a href="{{ member.url }}" target="_blank" style="color: #18453B; text-decoration: none;">{{ member.name }}</a></h4>
+            {% else %}
             <h4>{{ member.name }}</h4>
+            {% endif %}
             <div class="role">{{ member.role }}</div>
             <p>{{ member.department }}</p>
         </div>
@@ -117,7 +121,11 @@ title: Home
             {% else %}
             <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
             {% endif %}
+            {% if member.url %}
+            <h4><a href="{{ member.url }}" target="_blank" style="color: #18453B; text-decoration: none;">{{ member.name }}</a></h4>
+            {% else %}
             <h4>{{ member.name }}</h4>
+            {% endif %}
             <div class="role">{{ member.role }}</div>
             <p>{{ member.department }}</p>
         </div>
@@ -134,6 +142,7 @@ title: Home
         </p>
     </div>
 </section>
+
 
 <section id="publications">
         <h2>Selected Publications</h2>

@@ -6,7 +6,7 @@ title: News & Updates
 <header>
     <div class="container">
         <h1>News & Updates</h1>
-        <p>Latest developments from the DANS-OM Lab</p>
+        <p>Latest developments from the DANSOM Lab</p>
     </div>
 </header>
 

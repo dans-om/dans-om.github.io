@@ -1,7 +1,7 @@
 # Site settings
-title: DANS-OM Lab
+title: DANSOM Lab
 email: ravisha3@msu.edu
-description: Data-driven NeuroScience Of Meditation Lab at Michigan State University
+description: Data-driven Neuroscience Of Meditation Lab at Michigan State University
 baseurl: ""
 url: "https://dans-om.github.io"
 

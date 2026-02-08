@@ -21,11 +21,11 @@ title: Home
             <div>
                 <p>The <strong>DANS-OM Lab (Data-driven Neuroscience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
                 
-                <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics, and physiological and behavioral effects of meditation using high-density EEG (64-channel wireless) systems and other devices, questionnaires, and advanced data analysis and machine learning. We investigate various meditation techniques including breath-focus meditation and mantra-based meditation through longitudinal studiesof new and expert meditators and examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice and states of consciousness through rigorous scientific  inquiry.</p>
+                <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics, and physiological and behavioral effects of meditation using high-density EEG (64-channel wireless) systems and other devices, questionnaires, and advanced data analysis and machine learning. We investigate various meditation techniques including breath-focus meditation and mantra-based meditation through longitudinal studies of new and expert meditators and examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice and states of consciousness through rigorous scientific  inquiry.</p>
                 
                 <p style="margin-top: 20px;"><strong>Leadership:</strong> The DANSOM Lab is directed by <strong>Dr. Saiprasad Ravishankar</strong> and has evolved from the <a href="https://slim-msu.github.io/" target="_blank">SLIM (Signals, Learning & Imaging) Lab</a>, expanding to focus specifically on contemplative neuroscience and meditation research.</p>
                 
-                <p style="margin-top: 20px;">We maintain an in-house EEGlab facility equipped with state-of-the-art 64-channel wireless EEG systems, enabling longitudinal studies that track neural changes over weeks and months of meditation practice.</p>
+                <p style="margin-top: 20px;">We maintain an in-house EEG lab facility equipped with state-of-the-art 64-channel wireless EEG systems, enabling longitudinal studies that track neural changes over weeks and months of meditation practice.</p>
             </div>
             
             <!-- Right column: Neuroplasticity image -->
@@ -60,11 +60,10 @@ title: Home
 
         <h3 style="margin-top: 50px;">Key Findings</h3>
         <ul style="margin-left: 30px; margin-top: 20px;">
-            <li>Mantra-based meditation produces distinct alpha band modulations compared to breath-focused techniques</li>
+            <li>Different meditation techniques produce distinct alpha band modulations. For example, the Hare Krishna mantra meditation technique leads to significant increased peak alpha frequency indicating sustained focus states  and cognitive processing.</li>
             <li>Six weeks of daily practice significantly reduces P300 latency, indicating improved neural processing efficiency</li>
             <li>Meditation enhances interoceptive awareness (MAIA scores) across all technique types</li>
-            <li>Individual Alpha Frequency (IAF) increases and Individual Alpha Power (IAP) decreases during meditation, suggesting enhanced attentional control</li>
-            <li>Deep learning models with Stationary Wavelet Transform modules successfully classify meditation states with >90% accuracy</li>
+            <li>Deep learning models with Stationary Wavelet Transform modules successfully classify meditation states</li>
             <li>Consistent deep practice is essential for accessing transformative meditative states</li>
         </ul>
     </section>

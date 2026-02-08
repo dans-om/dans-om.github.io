@@ -24,7 +24,11 @@ title: Collaborators
                 {% else %}
                 <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
                 {% endif %}
+                {% if member.url %}
+                <h4><a href="{{ member.url }}" target="_blank" style="color: #18453B; text-decoration: none;">{{ member.name }}</a></h4>
+                {% else %}
                 <h4>{{ member.name }}</h4>
+                {% endif %}
                 <div class="role">{{ member.role }}</div>
                 <p>{{ member.department }}</p>
             </div>
@@ -33,6 +37,7 @@ title: Collaborators
 
         <h3 style="margin-top: 50px;">Institutional Partners</h3>
         <div class="research-areas">
+            
             <div class="research-card">
                 <h4>Brainwave Science, Inc.</h4>
                 <p>EEG Technology Development & Signal Processing Research</p>

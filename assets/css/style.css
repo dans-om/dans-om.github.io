@@ -409,3 +409,13 @@ footer {
         grid-template-columns: 1fr !important;
     }
 }
+
+/* Collaborator name links */
+.team-member h4 a {
+    transition: color 0.3s ease;
+}
+
+.team-member h4 a:hover {
+    color: #2d6a5f !important;
+    text-decoration: underline;
+}

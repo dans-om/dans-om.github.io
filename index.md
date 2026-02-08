@@ -7,7 +7,7 @@ title: Home
     <img src="{{ '/images/meditation-banner.jpeg' | relative_url }}" alt="Meditation and Brainwaves" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.3; z-index: 0;">
     <div class="container" style="position: relative; z-index: 1;">
         <h1>DANSOM Lab</h1>
-        <p>Data-driven Neuroscience Of Meditation</p>
+        <p>Data-driven Neuroscience of Meditation</p>
         <div class="university">Michigan State University</div>
     </div>
 </header>
@@ -19,7 +19,7 @@ title: Home
         <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; align-items: start;">
             <!-- Left column: About text -->
             <div>
-                <p>The <strong>DANS-OM Lab (Data-driven Neuroscience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
+                <p>The <strong>DANS-OM Lab (Data-driven NeuroScience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
                 
                 <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics, and physiological and behavioral effects of meditation using high-density EEG (64-channel wireless) systems and other devices, questionnaires, and advanced data analysis and machine learning. We investigate various meditation techniques including breath-focus meditation and mantra-based meditation through longitudinal studies of new and expert meditators and examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice and states of consciousness through rigorous scientific  inquiry.</p>
                 

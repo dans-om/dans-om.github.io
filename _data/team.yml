@@ -58,36 +58,36 @@
 
 # Collaborators (moved from advisors)
 - name: Dr. Barry H. Cohen
-  role: Professor Emeritus
+  role: Professor Emeritus & Research Affiliate
   department: Applied Psychology, New York University
   category: Collaborator
   image: /images/team/barry.jfif
-  url: https://as.nyu.edu/departments/appsych/people/faculty.barry-h-cohen.html
+  url: https://steinhardt.nyu.edu/people/barry-h-cohen-phd
 
 - name: Dr. Mengsen Zhang
   role: Assistant Professor
   department: Computational Mathematics, Science & Engineering, Michigan State University
   category: Collaborator
   image: /images/team/mengsen.jfif
-  url: https://cmse.msu.edu/directory/faculty/mengsen-zhang/
+  url: https://engineering.msu.edu/faculty/Mengsen-Zhang
 
 - name: Dr. Taosheng Liu
   role: Professor
   department: Psychology, Michigan State University
   category: Collaborator
   image: /images/team/taosheng.jfif
-  url: https://psychology.msu.edu/people/faculty/taosheng-liu.html
+  url: https://psychology.msu.edu/directory/liu-taosheng.html
 
 - name: Dr. Julio Rodriguez-Larios
   role: Lecturer in Psychology
   department: Department of Life Sciences, Brunel University London
   category: Collaborator
   image: /images/team/julio.jfif
-  url: https://www.brunel.ac.uk/people/julio-rodriguez-larios
+  url: https://www.brunel.ac.uk/people/julio-rodriguezlarios
 
 - name: Dr. Matthew Sacchet
-  role: Director, Meditation Research Program; Assistant Professor of Psychiatry
+  role: Associate Professor & Director, Meditation Research Program
   department: Harvard Medical School & Massachusetts General Hospital
   category: Collaborator
   image: /images/team/matthew.jfif
-  url: https://www.matthewsacchet.com/
+  url: https://meditation.mgh.harvard.edu/sacchet/

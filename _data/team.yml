@@ -4,6 +4,7 @@
   department: Computational Mathematics, Science & Engineering and Biomedical Engineering, Michigan State University
   category: PI
   image: /images/team/saiprasad.jfif
+  url: https://engineering.msu.edu/faculty/saiprasad-ravishankar
 
 # Lab Members
 - name: Angqi Li
@@ -11,7 +12,8 @@
   department: Computational Mathematics, Science & Engineering, Michigan State University
   category: Lab Member
   image: /images/team/angqi.png
-
+  url: https://scholar.google.com/citations?user=gNeoT5QAAAAJ&hl=en
+  
 - name: Syed Ab Basit Rafi
   role: Graduate Student
   department: Computational Mathematics, Science & Engineering, Michigan State University

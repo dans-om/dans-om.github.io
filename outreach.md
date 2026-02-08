@@ -49,7 +49,7 @@ title: Outreach & Community Engagement
             
             <div class="research-card">
                 <h4>🧘 DISC 2022 - Wellness & MAPS Session</h4>
-                <p>Wellness session and MAPS (Meditation and Practice Science) workshop led by Devin O'Rourke at DISC 2022.</p>
+                <p>Wellness workshop led by Devin O'Rourke at DISC 2022.</p>
                 <a href="https://sites.google.com/msu.edu/2nd-disc-2022/conference-pictures" target="_blank" class="btn" style="margin-top: 10px; display: inline-block;">View Photos</a>
             </div>
             
@@ -61,10 +61,6 @@ title: Outreach & Community Engagement
 
         <h3 style="margin-top: 50px;">Other Outreach Activities</h3>
         <div class="research-areas">
-            <div class="research-card">
-                <h4>📚 Educational Workshops</h4>
-                <p>Interactive workshops where we share our latest findings and discuss the science behind effective meditation practice. Topics include EEG neurofeedback, meditation state detection, and optimal practice strategies.</p>
-            </div>
             
             <div class="research-card">
                 <h4>🎓 Student Involvement</h4>
@@ -87,20 +83,7 @@ title: Outreach & Community Engagement
             </div>
         </div>
 
-        <h3 style="margin-top: 50px;">Research Participation</h3>
-        <div style="background: #fff5e6; padding: 30px; margin: 30px 0; border-left: 4px solid #ff6600; border-radius: 5px;">
-            <h4 style="color: #ff6600;">Participate in Our Studies</h4>
-            <p>We are always looking for participants for our meditation studies. Whether you're an experienced meditator or interested in learning, there may be opportunities to contribute to our research.</p>
-            <p style="margin-top: 15px;"><strong>Benefits of participating:</strong></p>
-            <ul style="margin: 10px 0 15px 30px;">
-                <li>Learn meditation techniques from expert instructors</li>
-                <li>Receive EEG feedback on your meditation practice</li>
-                <li>Contribute to scientific understanding of meditation</li>
-                <li>Compensation may be provided for study participation</li>
-            </ul>
-            <a href="mailto:{{ site.email }}" class="btn btn-secondary">Contact Us About Participating</a>
-        </div>
-
+        
         <h3 style="margin-top: 50px;">Collaboration Opportunities</h3>
         <p>We welcome collaborations with:</p>
         <ul style="margin: 20px 0 20px 30px;">

@@ -19,11 +19,11 @@ title: Home
         <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; align-items: start;">
             <!-- Left column: About text -->
             <div>
-                <p>The <strong>DANSOM Lab (Data-driven Neuroscience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational Neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
+                <p>The <strong>DANS-OM Lab (Data-driven Neuroscience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
                 
-                <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics during meditation using high-density EEG (64-channel wireless systems), spectral analysis (FOOOF decomposition, time-frequency representations), and multivariate classification methods. We investigate mantra-based meditation techniques through longitudinal studies, examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice optimization through rigorous neuroscientific inquiry.</p>
+                <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics, and physiological and behavioral effects of meditation using high-density EEG (64-channel wireless) systems and other devices, questionnaires, and advanced data analysis and machine learning. We investigate various meditation techniques including breath-focus meditation and mantra-based meditation through longitudinal studiesof new and expert meditators and examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice and states of consciousness through rigorous scientific  inquiry.</p>
                 
-                <p style="margin-top: 20px;"><strong>Leadership:</strong> The DANSOM Lab is directed by <strong>Dr. Saiprasad Ravishankar</strong> and has evolved from the <a href="https://slim-msu.github.io/" target="_blank">SLIM (Signal, Learning & Imaging) Lab</a>, expanding to focus specifically on contemplative Neuroscience and meditation research.</p>
+                <p style="margin-top: 20px;"><strong>Leadership:</strong> The DANSOM Lab is directed by <strong>Dr. Saiprasad Ravishankar</strong> and has evolved from the <a href="https://slim-msu.github.io/" target="_blank">SLIM (Signals, Learning & Imaging) Lab</a>, expanding to focus specifically on contemplative neuroscience and meditation research.</p>
                 
                 <p style="margin-top: 20px;">We maintain an in-house EEGlab facility equipped with state-of-the-art 64-channel wireless EEG systems, enabling longitudinal studies that track neural changes over weeks and months of meditation practice.</p>
             </div>
@@ -44,7 +44,7 @@ title: Home
         <div class="research-areas">
             <div class="research-card">
                 <h4>Exploring Neural Mechanisms and Effects of Contemplative Practices</h4>
-                <p>Investigating the brain dynamics underlying various meditation techniques, including mantra-based practices (Hare Krishna, Sa Ta Na Ma) and breath-focused meditation. Using advanced spectral analysis, FOOOF decomposition, and machine learning to identify neural biomarkers and understand the transformative effects of sustained contemplative practice.</p>
+                <p>We use advanced spectral analysis, FOOOF decomposition, and machine learning to identify neural biomarkers and understand the transformative effects of sustained contemplative practice.</p>
             </div>
             
             <div class="research-card">
@@ -54,7 +54,7 @@ title: Home
             
             <div class="research-card">
                 <h4>AI 4 Meditation State Detection</h4>
-                <p>Using AI & machine learning for real-time meditation state classification. Applying our signal processing expertise to distinguish authentic meditative states from mind-wandering and rest.</p>
+                <p>Using AI & machine learning for real-time identification of meditation state and their patterns. We distinguish authentic meditative states from mind-wandering with goal of enabling neurofeedback.</p>
             </div>
         </div>
 
@@ -152,7 +152,6 @@ title: Home
             </li>
             {% endfor %}
         </ul>
-        <p style="margin-top: 30px;"><em>Additional research supported by Brainwave Science, Inc. and collaborations across partner institutions.</em></p>
     </section>
 
     <div class="opportunities">
@@ -162,12 +161,11 @@ title: Home
             <h3>PhD Student Positions Available</h3>
             <p><strong>We are actively seeking motivated PhD students</strong> to join the DANSOM Lab. Ideal candidates will have:</p>
             <ul style="margin: 15px 0 15px 30px;">
-                <li>Background in Neuroscience, computational science, biomedical engineering, psychology, or related fields</li>
-                <li>Strong interest in meditation research and contemplative Neuroscience</li>
+                <li>Background in neuroscience, computational science, biomedical engineering, psychology, or related fields</li>
+                <li>Strong interest in meditation research and contemplative neuroscience</li>
                 <li>Experience with signal processing, machine learning, or EEG analysis (preferred but not required)</li>
                 <li>Strong programming skills (Python, MATLAB)</li>
             </ul>
-            <p><strong>What we offer:</strong> Opportunities to work on cutting-edge meditation studies, publish in top-tier journals, and contribute to understanding how to optimize meditation practice.</p>
             <a href="mailto:{{ site.email }}" class="btn btn-secondary">Apply for PhD Position</a>
         </div>
 
@@ -177,7 +175,7 @@ title: Home
             <ul style="margin: 15px 0 15px 30px;">
                 <li>Gain hands-on experience with EEG data collection and analysis</li>
                 <li>Learn advanced signal processing and machine learning techniques</li>
-                <li>Contribute to ongoing meditation Neuroscience studies</li>
+                <li>Contribute to ongoing meditation neuroscience studies</li>
                 <li>Co-author research publications and conference presentations</li>
             </ul>
             <p><strong>Duration:</strong> 8-12 weeks | Remote or In-person<br>
@@ -186,13 +184,7 @@ title: Home
         </div>
     </div>
 
-    <section style="background: linear-gradient(135deg, #18453B 0%, #2d6a5f 100%); color: white; padding: 40px; border-radius: 8px; margin: 40px 0; text-align: center;">
-        <h3 style="color: white; border: none; margin-bottom: 20px; padding-bottom: 0;">DANSOM or DANS-OM?</h3>
-        <p style="font-size: 1.1em; line-height: 1.7; max-width: 800px; margin: 0 auto;">
-            Our lab name carries dual meaning: <em>Dans</em> in French means "within," while <em>Om</em> is synonymous with meditation culture. Since we look <strong>within</strong> meditation using data-driven neuroscience, it serves both purposes beautifully. That's why we pronounce our lab as <strong>DANS-OM</strong> (DANS hyphen OM).
-        </p>
-    </section>
-
+    
     <section id="contact">
         <h2>Contact Us</h2>
         <div class="contact-info">

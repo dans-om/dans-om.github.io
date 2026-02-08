@@ -1,10 +1,11 @@
-﻿# Lab Members
+﻿# Principal Investigator
 - name: Dr. Saiprasad Ravishankar
   role: Principal Investigator & Lab Director
   department: Computational Mathematics, Science & Engineering and Biomedical Engineering, Michigan State University
-  category: Lab Member
+  category: PI
   image: /images/team/saiprasad.jfif
 
+# Lab Members
 - name: Angqi Li
   role: PhD Candidate
   department: Computational Mathematics, Science & Engineering, Michigan State University
@@ -29,33 +30,59 @@
   category: Lab Member
   image: /images/team/devin.jpg
 
-# Advisors
+# Undergraduate Research Support
+- name: Pratham Pradhan
+  role: Undergraduate Research Assistant
+  department: Michigan State University
+  category: Undergrad Support
+
+- name: Vu Song Thuy Nguyen
+  role: Undergraduate Research Assistant
+  department: Michigan State University
+  category: Undergrad Support
+
+- name: Annie Wozniak
+  role: Undergraduate Research Assistant
+  department: Michigan State University
+  category: Undergrad Support
+
+- name: Genevieve Orlewicz
+  role: Undergraduate Research Assistant
+  department: Michigan State University
+  category: Undergrad Support
+
+- name: Alisia Coipel
+  role: Undergraduate Research Assistant
+  department: Michigan State University
+  category: Undergrad Support
+
+# Collaborators (moved from advisors)
 - name: Dr. Barry H. Cohen
-  role: Advisor
+  role: Collaborator
   department: Applied Psychology, New York University
-  category: Advisor
-  image: /images/team/barry.jfif
+  category: Collaborator
+  image: /images/team/barry.jpg
 
 - name: Dr. Mengsen Zhang
-  role: Advisor
+  role: Collaborator
   department: Computational Mathematics, Science & Engineering, Michigan State University
-  category: Advisor
+  category: Collaborator
   image: /images/team/mengsen.jfif
 
 - name: Dr. Taosheng Liu
-  role: Advisor
+  role: Collaborator
   department: Psychology, Michigan State University
-  category: Advisor
+  category: Collaborator
   image: /images/team/taosheng.jfif
 
 - name: Dr. Julio Rodriguez-Larios
   role: Collaborator
   department: Department of Life Sciences, Brunel University London
-  category: Advisor
+  category: Collaborator
   image: /images/team/julio.jfif
 
 - name: Dr. Matthew Sacchet
   role: Collaborator
   department: Meditation Research Program, Harvard Medical School
-  category: Advisor
+  category: Collaborator
   image: /images/team/matthew.jfif

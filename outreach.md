@@ -13,10 +13,10 @@ title: Outreach & Community Engagement
 <div class="container">
     <section>
         <h2>Community Engagement</h2>
-        <p>The DANS-OM Lab is committed to sharing our research findings with the broader community and supporting meditation practice through evidence-based guidance.</p>
+        <p>The DANSOM Lab is committed to sharing our research findings with the broader community and supporting meditation practice through evidence-based guidance.</p>
         
         <div style="text-align: center; margin: 40px 0;">
-            <img src="{{ '/images/wellness-inner-architecture.png' | relative_url }}" alt="Inner Architecture - Structuring your psyche for success and satisfaction" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="{{ '/images/deva-talk.jpg' | relative_url }}" alt="Inner Architecture - Structuring your psyche for success and satisfaction" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
         </div>
 
         <h3 style="margin-top: 40px;">Wellness Sessions & Workshops</h3>
@@ -109,6 +109,6 @@ title: Outreach & Community Engagement
             <li>Researchers in related fields (neuroscience, psychology, data science)</li>
             <li>Healthcare organizations exploring meditation-based therapies</li>
         </ul>
-        <p style="margin-top: 20px;">If you're interested in collaborating with the DANS-OM Lab, please reach out to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+        <p style="margin-top: 20px;">If you're interested in collaborating with the DANSOM Lab, please reach out to us at <a href="mailto:chhabr26@msu.edu">chhabr26@msu.edu</a>.</p>
     </section>
 </div>

@@ -1,84 +1,46 @@
 ---
 layout: default
-title: Collaborating Institutions
+title: Collaborators
 ---
 
 <header>
     <div class="container">
-        <h1>Collaborating Institutions</h1>
-        <p>Partner Organizations & Research Institutions</p>
+        <h1>Collaborators</h1>
+        <p>Research Partners & Collaborating Scientists</p>
     </div>
 </header>
 
 <div class="container">
     <section>
         <h2>Our Collaborative Network</h2>
-        <p>The DANS-OM Lab collaborates with leading institutions across multiple disciplines to advance meditation research.</p>
+        <p>The DANSOM Lab works with leading researchers and institutions across multiple disciplines to advance meditation science.</p>
         
-        <div class="research-areas" style="margin-top: 40px;">
-            <div class="research-card">
-                <h4>Michigan State University</h4>
-                <ul style="margin: 10px 0 0 20px;">
-                    <li>Department of Computational Mathematics, Science & Engineering</li>
-                    <li>Department of Biomedical Engineering</li>
-                    <li>Department of Psychology</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>Location:</strong> East Lansing, MI</p>
+        <div class="team-grid" style="margin-top: 40px;">
+            {% assign collaborators = site.data.team | where: "category", "Collaborator" %}
+            {% for member in collaborators %}
+            <div class="team-member">
+                {% if member.image %}
+                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                {% else %}
+                <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
+                {% endif %}
+                <h4>{{ member.name }}</h4>
+                <div class="role">{{ member.role }}</div>
+                <p>{{ member.department }}</p>
             </div>
-            
-            <div class="research-card">
-                <h4>Harvard Medical School</h4>
-                <ul style="margin: 10px 0 0 20px;">
-                    <li>Meditation Research Program</li>
-                    <li>Department of Psychiatry</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>Collaborator:</strong> Dr. Matthew Sacchet</p>
-                <p><strong>Location:</strong> Boston, MA</p>
-            </div>
-            
-            <div class="research-card">
-                <h4>New York University</h4>
-                <ul style="margin: 10px 0 0 20px;">
-                    <li>Department of Applied Psychology</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>Collaborator:</strong> Dr. Barry H. Cohen</p>
-                <p><strong>Location:</strong> New York, NY</p>
-            </div>
-            
-            <div class="research-card">
-                <h4>Brunel University London</h4>
-                <ul style="margin: 10px 0 0 20px;">
-                    <li>Department of Life Sciences</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>Collaborator:</strong> Dr. Julio Rodriguez-Larios</p>
-                <p><strong>Location:</strong> London, UK</p>
-            </div>
-            
-            <div class="research-card">
-                <h4>Henry Ford Hospital</h4>
-                <ul style="margin: 10px 0 0 20px;">
-                    <li>Clinical EEG Research</li>
-                    <li>Meditation State Detection</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>Location:</strong> Detroit, MI</p>
-            </div>
-            
-            <div class="research-card">
-                <h4>Brainwave Science, Inc.</h4>
-                <ul style="margin: 10px 0 0 20px;">
-                    <li>EEG Technology Development</li>
-                    <li>Signal Processing Research</li>
-                </ul>
-                <p style="margin-top: 15px;"><strong>Location:</strong> Southborough, MA</p>
-            </div>
+            {% endfor %}
         </div>
 
-        <h3 style="margin-top: 50px;">Community Partners</h3>
+        <h3 style="margin-top: 50px;">Institutional Partners</h3>
         <div class="research-areas">
             <div class="research-card">
+                <h4>Brainwave Science, Inc.</h4>
+                <p>EEG Technology Development & Signal Processing Research</p>
+            </div>
+            
+            <div class="research-card">
                 <h4>Harmony Collective</h4>
-                <p>Expert meditation instructors and community practice support</p>
-                <p style="margin-top: 10px;"><strong>Location:</strong> Ypsilanti, MI</p>
+                <p>Expert meditation instruction and community practice support (Ypsilanti, MI)</p>
             </div>
         </div>
     </section>

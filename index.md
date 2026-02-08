@@ -3,10 +3,11 @@ layout: default
 title: Home
 ---
 
-<header>
-    <div class="container">
-        <h1>DANS-OM Lab</h1>
-        <p>Data-driven NeuroScience Of Meditation</p>
+<header style="position: relative; overflow: hidden;">
+    <img src="{{ '/images/meditation-banner.jpeg' | relative_url }}" alt="Meditation and Brainwaves" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.3; z-index: 0;">
+    <div class="container" style="position: relative; z-index: 1;">
+        <h1>DANSOM Lab</h1>
+        <p>Data-driven Neuroscience Of Meditation</p>
         <div class="university">Michigan State University</div>
     </div>
 </header>
@@ -18,11 +19,11 @@ title: Home
         <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 40px; align-items: start;">
             <!-- Left column: About text -->
             <div>
-                <p>The <strong>DANS-OM Lab (Data-driven NeuroScience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
+                <p>The <strong>DANSOM Lab (Data-driven Neuroscience Of Meditation)</strong> at Michigan State University advances the scientific understanding of meditation through data-driven research. We employ computational Neuroscience, advanced signal processing, machine learning, and rigorous experimental psychology to study contemplative practices.</p>
                 
                 <p style="margin-top: 20px;">Our research focuses on quantifying neural dynamics during meditation using high-density EEG (64-channel wireless systems), spectral analysis (FOOOF decomposition, time-frequency representations), and multivariate classification methods. We investigate mantra-based meditation techniques through longitudinal studies, examining event-related potentials (P300), oscillatory biomarkers (alpha/theta power, IAF/IAP), and behavioral correlates (MAIA, FFMQ, PSS). Our goal is to establish evidence-based frameworks for meditation practice optimization through rigorous neuroscientific inquiry.</p>
                 
-                <p style="margin-top: 20px;"><strong>Leadership:</strong> The DANS-OM Lab is directed by <strong>Dr. Saiprasad Ravishankar</strong> and has evolved from the <a href="https://slim-msu.github.io/" target="_blank">SLIM (Sensing, Learning, Imaging & Modeling) Lab</a>, expanding to focus specifically on contemplative neuroscience and meditation research.</p>
+                <p style="margin-top: 20px;"><strong>Leadership:</strong> The DANSOM Lab is directed by <strong>Dr. Saiprasad Ravishankar</strong> and has evolved from the <a href="https://slim-msu.github.io/" target="_blank">SLIM (Signal, Learning & Imaging) Lab</a>, expanding to focus specifically on contemplative Neuroscience and meditation research.</p>
                 
                 <p style="margin-top: 20px;">We maintain an in-house EEGlab facility equipped with state-of-the-art 64-channel wireless EEG systems, enabling longitudinal studies that track neural changes over weeks and months of meditation practice.</p>
             </div>
@@ -90,6 +91,23 @@ title: Home
 <section id="team">
     <h2>Team</h2>
     
+    <h3>Principal Investigator</h3>
+    <div class="team-grid">
+        {% assign pi = site.data.team | where: "category", "PI" %}
+        {% for member in pi %}
+        <div class="team-member">
+            {% if member.image %}
+            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+            {% else %}
+            <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
+            {% endif %}
+            <h4>{{ member.name }}</h4>
+            <div class="role">{{ member.role }}</div>
+            <p>{{ member.department }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
     <h3>Lab Members</h3>
     <div class="team-grid">
         {% assign lab_members = site.data.team | where: "category", "Lab Member" %}
@@ -107,24 +125,15 @@ title: Home
         {% endfor %}
     </div>
 
-    <h3>Advisors</h3>
-    <div class="team-grid">
-        {% assign advisors = site.data.team | where: "category", "Advisor" %}
-        {% for member in advisors %}
-        <div class="team-member">
-            {% if member.image %}
-            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
-            {% else %}
-            <div style="width: 150px; height: 150px; border-radius: 50%; background: #e0e0e0; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 3em;">👤</div>
-            {% endif %}
-            <h4>{{ member.name }}</h4>
-            <div class="role">{{ member.role }}</div>
-            <p>{{ member.department }}</p>
-        </div>
-        {% endfor %}
+    <h3>Undergraduate Research Support</h3>
+    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 20px;">
+        <p style="margin: 0;">
+            {% assign undergrads = site.data.team | where: "category", "Undergrad Support" %}
+            {% for member in undergrads %}
+                <strong>{{ member.name }}</strong>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+        </p>
     </div>
-
-    <p style="margin-top: 30px;"><em>We also gratefully acknowledge our expert meditation instructors and our dedicated data collectors including Pratham Pradhan, Annie Wozniak, Vu Song Thuy Nguyen, Wei-ting Tan, Alisia Coipel, and Genevieve Orlewicz.</em></p>
 </section>
 
 <section id="publications">
@@ -151,10 +160,10 @@ title: Home
         
         <div class="opportunity-box">
             <h3>PhD Student Positions Available</h3>
-            <p><strong>We are actively seeking motivated PhD students</strong> to join the DANS-OM Lab. Ideal candidates will have:</p>
+            <p><strong>We are actively seeking motivated PhD students</strong> to join the DANSOM Lab. Ideal candidates will have:</p>
             <ul style="margin: 15px 0 15px 30px;">
-                <li>Background in neuroscience, computational science, biomedical engineering, psychology, or related fields</li>
-                <li>Strong interest in meditation research and contemplative neuroscience</li>
+                <li>Background in Neuroscience, computational science, biomedical engineering, psychology, or related fields</li>
+                <li>Strong interest in meditation research and contemplative Neuroscience</li>
                 <li>Experience with signal processing, machine learning, or EEG analysis (preferred but not required)</li>
                 <li>Strong programming skills (Python, MATLAB)</li>
             </ul>
@@ -168,7 +177,7 @@ title: Home
             <ul style="margin: 15px 0 15px 30px;">
                 <li>Gain hands-on experience with EEG data collection and analysis</li>
                 <li>Learn advanced signal processing and machine learning techniques</li>
-                <li>Contribute to ongoing meditation neuroscience studies</li>
+                <li>Contribute to ongoing meditation Neuroscience studies</li>
                 <li>Co-author research publications and conference presentations</li>
             </ul>
             <p><strong>Duration:</strong> 8-12 weeks | Remote or In-person<br>
@@ -176,6 +185,13 @@ title: Home
             <a href="mailto:{{ site.email }}" class="btn btn-secondary">Apply for Summer Internship</a>
         </div>
     </div>
+
+    <section style="background: linear-gradient(135deg, #18453B 0%, #2d6a5f 100%); color: white; padding: 40px; border-radius: 8px; margin: 40px 0; text-align: center;">
+        <h3 style="color: white; border: none; margin-bottom: 20px; padding-bottom: 0;">DANSOM or DANS-OM?</h3>
+        <p style="font-size: 1.1em; line-height: 1.7; max-width: 800px; margin: 0 auto;">
+            Our lab name carries dual meaning: <em>Dans</em> in French means "within," while <em>Om</em> is synonymous with meditation culture. Since we look <strong>within</strong> meditation using data-driven neuroscience, it serves both purposes beautifully. That's why we pronounce our lab as <strong>DANS-OM</strong> (DANS hyphen OM).
+        </p>
+    </section>
 
     <section id="contact">
         <h2>Contact Us</h2>

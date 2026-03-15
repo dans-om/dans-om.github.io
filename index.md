@@ -152,7 +152,7 @@ title: Home
             <li>
                 <strong>{{ pub.authors }}.</strong> "{{ pub.title }}," <em>{{ pub.venue }}</em>
                 {% if pub.pdf %}
-                <br><a href="{{ pub.pdf | relative_url }}" target="_blank">📄 View Author's copy (PDF)</a>
+                <br><a href="{{ pub.pdf | relative_url }}" target="_blank">📄 View PDF</a>
                 {% endif %}
                 {% if pub.link and pub.link != "" %}
                 <br><a href="{{ pub.link }}" target="_blank">🔗 Link</a>

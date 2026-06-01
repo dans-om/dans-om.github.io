@@ -1,7 +1,15 @@
-﻿- authors: A. Li, J. Rodriguez-Larios, M. Zhang, T. Liu, B. H. Cohen, and S. Ravishankar
+﻿- authors: A. Li, A. B. R. Syed, H. Alzweri, T. Liu, B. Cohen, and S. Ravishankar
+  year: "2026"
+  title: "L-FAME: Longitudinal Focused Attention Meditation EEG Dataset and Benchmark"
+  venue: "arXiv, 2026."
+  link: ""
+  pdf: "/pdfs/L-FAME.pdf" 
+
+
+- authors: A. Li, J. Rodriguez-Larios, M. Zhang, T. Liu, B. H. Cohen, and S. Ravishankar
   year: "2026"
   title: "Not all mantra meditations are equal: Emergence of divergent alpha oscillatory dynamics
-across mantras"
+  across mantras"
   venue: "Biorxiv 2026."
   link: ""
   pdf: "/pdfs/not-all-mantra.pdf"
@@ -20,7 +28,7 @@ across mantras"
   link: ""
   pdf: "/pdfs/Poster_sfn_2025___classification.pdf"
 
-- authors: A. Li, A. B. Syed, K. Ika, T. Liu, M. Zhang, B. H. Cohen, and S. Ravishankar
+- authors: A. Li, A. B. R. Syed, K. Ika, T. Liu, M. Zhang, B. H. Cohen, and S. Ravishankar
   year: "2025"
   title: "Quantifying Improvements in Cognitive Skills, Stress, and Mindfulness from Mantra-based and Breath-focus Meditation Techniques"
   venue: "Program No. PSTR187.11. 2025 Neuroscience Meeting Planner. San Diego, CA: Society for Neuroscience, 2025."

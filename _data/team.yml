@@ -32,12 +32,6 @@
   category: Lab Member
   image: /images/team/devin.jpg
 
-- name: Selin Aviyente
-  role: Professor
-  department: Electrical & Computer Engineering, Michigan State University
-  category: Lab Member
-  image: /images/team/aviyente.jpg
-
 # Undergraduate Research Support
 - name: Pratham Pradhan
   role: Undergraduate Research Assistant
@@ -99,3 +93,10 @@
   category: Collaborator
   image: /images/team/matthew.jfif
   url: https://meditation.mgh.harvard.edu/sacchet/
+
+- name: Dr. Selin Aviyente
+  role: Professor
+  department: Electrical & Computer Engineering, Michigan State University
+  category: Collaborator
+  image: /images/team/aviyente.jpg
+  url: https://engineering.msu.edu/faculty/selin-aviyente

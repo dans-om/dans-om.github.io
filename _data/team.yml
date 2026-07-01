@@ -32,6 +32,12 @@
   category: Lab Member
   image: /images/team/devin.jpg
 
+- name: Hamzeh Alzweri
+  role: Intern
+  department: Computational Mathematics, Science & Engineering, Michigan State University
+  category: Lab Member
+  image: /images/team/Hamzeh_personal_image.png
+
 # Undergraduate Research Support
 - name: Pratham Pradhan
   role: Undergraduate Research Assistant

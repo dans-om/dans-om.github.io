@@ -38,6 +38,12 @@
   category: Lab Member
   image: /images/team/Hamzeh_personal_image.png
 
+- name: Snabu Neupane
+  role: Intern
+  department: Graduate Student in Neuroscience
+  category: Lab Member
+  image: /images/team/Snabu_Neupane_pfp.png
+
 # Undergraduate Research Support
 - name: Pratham Pradhan
   role: Undergraduate Research Assistant

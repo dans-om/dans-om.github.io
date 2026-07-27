@@ -33,9 +33,9 @@ title: Home
                 <h4 style="color: #18453B; margin-bottom: 15px; font-size: 1.1em;">Featured Finding</h4>
                 <img src="{{ '/images/menstra.png' | relative_url }}" alt="Menstra" style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 15px;">
                 <p style="font-size: 0.9em; line-height: 1.5; color: #333;">
-                   This figure shows that six weeks of training led to divergent alpha-frequency changes during the post-task resting state, Rest2. The HK group showed a trend toward increased IAF, mainly over frontal and occipital regions, with the PSD profile suggesting a slight rightward shift of the alpha peak after training. In contrast, the SA group showed a widespread reduction in IAF, especially over frontal-central electrodes, with a clear leftward shift of the alpha peak. The between-group interaction further indicates that HK tended to maintain or increase higher-frequency alpha activity, whereas SA showed training-related alpha slowing during post-task rest.
+                   This figure shows that six weeks of training led to divergent alpha-frequency changes during the post-task resting state, Rest2. The Hare Krishna (HK) group showed a trend toward increased IAF, mainly over frontal and occipital regions, with the PSD profile suggesting a slight rightward shift of the alpha peak after training. In contrast, the Sa-Ta-Na-Ma (SA) group showed a widespread reduction in IAF, especially over frontal-central electrodes, with a clear leftward shift of the alpha peak. The between-group interaction further indicates that HK tended to maintain or increase higher-frequency alpha activity, whereas SA showed training-related alpha slowing during post-task rest.
                 </p>
-                <a href="{{ '/pdfs/Poster_sfn_2025___64_Channels.pdf' | relative_url }}" target="_blank" style="display: inline-block; margin-top: 10px; color: #18453B; text-decoration: none; font-weight: 500;">📄 View Full Poster →</a>
+                <a href="https://www.biorxiv.org/content/10.64898/2026.02.26.707862v1.abstract" target="_blank" style="display: inline-block; margin-top: 10px; color: #18453B; text-decoration: none; font-weight: 500;">📄 View Full Paper →</a>
             </div>
         </div>
     </section>

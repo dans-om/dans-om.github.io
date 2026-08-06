@@ -1,6 +1,11 @@
 - date: "August 2026"
   title: "3 abstracts from our DANSOM lab team have been accepted for presentation at Neuroscience 2026 in Washington, D.C."
-  description: 'Decoding Meditative States: A Longitudinal EEG and Psychological Questionnaires Dataset with Machine Learning Benchmark'
+  description: |
+    <ul>
+      <li>Decoding Meditative States: A Longitudinal EEG and Psychological Questionnaires Dataset with Machine Learning Benchmark</li>
+      <li>Longitudinal Effects of Mantra-Based Meditation on Functional Connectivity</li>
+      <li>Bidirectional Modulations of Individual Alpha Dynamics Across Different Mantra-Based Meditation Techniques</li>
+    </ul>
     
 - date: "June 2026"
   title: "Inner Science Research Funding"

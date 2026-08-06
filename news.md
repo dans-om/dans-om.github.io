@@ -18,18 +18,7 @@ title: News & Updates
         <div style="background: white; padding: 30px; margin: 30px 0; border-left: 4px solid #18453B; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
             <h3 style="color: #18453B; margin-bottom: 10px;">{{ item.title }}</h3>
             <p style="color: #666; font-size: 0.9em; margin-bottom: 15px;">{{ item.date }}</p>
-            {% if item.description contains "\n" %}
-            <ol style="margin-left: 20px; color: #333;">
-                {% for line in item.description | split: "\n" %}
-                    {% assign clean_line = line | strip %}
-                    {% if clean_line != "" %}
-                        <li>{{ clean_line }}</li>
-                    {% endif %}
-                {% endfor %}
-            </ol>
-            {% else %}
             <p>{{ item.description }}</p>
-            {% endif %}
         </div>
         {% endfor %}
         
